@@ -1,6 +1,9 @@
 # Goalsetter MERN app
 
 This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.
+* Part 1: [Learn The MERN Stack - Express & MongoDB Rest API](https://www.youtube.com/watch?v=-0exw-9YJBo)
+* Part 2: [Learn The MERN Stack - JWT Authentication](https://www.youtube.com/watch?v=enopDSs3DRw)
+* Part 3: [Learn The MERN Stack - Frontend Authentication | Redux Toolkit](https://www.youtube.com/watch?v=mvfsC66xqj0)
 
 ## Usage
 

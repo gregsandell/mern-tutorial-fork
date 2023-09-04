@@ -15,7 +15,7 @@ const getGoals = asyncHandler(async (req, res) => {
 // @desc    Set goal
 // @route   POST /api/goals
 // @access  Private
-const setGoal = asyncHandler(async (req, res) => {
+const createGoal = asyncHandler(async (req, res) => {
   if (!req.body.text) {
     res.status(400)
     throw new Error('Please add a text field')
@@ -89,7 +89,7 @@ const deleteGoal = asyncHandler(async (req, res) => {
 
 module.exports = {
   getGoals,
-  setGoal,
+  createGoal,
   updateGoal,
   deleteGoal,
 }
