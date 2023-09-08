@@ -58,10 +58,6 @@ function Register() {
     }
   }
 
-  if (isLoading) {
-    return <Spinner />
-  }
-
   return (
     <>
       <section className='heading'>
@@ -124,6 +120,7 @@ function Register() {
           </div>
         </form>
       </section>
+      { isLoading?  <Spinner /> : null }
     </>
   )
 }

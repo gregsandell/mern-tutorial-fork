@@ -31,10 +31,6 @@ function Dashboard() {
     }
   }, [user, navigate, isError, message, dispatch])
 
-  if (isLoading) {
-    return <Spinner />
-  }
-
   return (
     <>
       <section className='heading'>
@@ -55,6 +51,7 @@ function Dashboard() {
           <h3>You have not set any goals</h3>
         )}
       </section>
+      { isLoading?  <Spinner /> : null }
     </>
   )
 }
